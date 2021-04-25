@@ -196,7 +196,7 @@ div{
     border-radius: 50%;
     transition: border-radius 450ms;
     border-color: #D6EAF8;
-    border-width: 10px;
+    border-width: 5px;
     
 }
 [name="16"]{
@@ -329,6 +329,9 @@ div{
         height: 100px;
         width: 100px;   
     }
+    #grupo4 :hover{
+        border-width: 8px;   
+    }
 }
 
 @media(min-width: 1000px){
@@ -339,5 +342,8 @@ div{
     div{
         height: 200px;
         width: 200px   
+    }
+    #grupo4 :hover{
+        border-width: 10px;   
     }
 }
