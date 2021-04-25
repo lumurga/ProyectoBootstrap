@@ -1,12 +1,17 @@
+body{
+    width: 90vw;
+    height: 90vh;
+    
 
-
+}
 div{
+    
     border: solid #34495E 3px;
-    width: 200px;
-    height: 200px;
+    height: 60px;
+    width: 40px;
     border-radius: 10px;
     margin: 10px;
-    
+    left: 15px;
 }
 
 @keyframes homero {
@@ -15,8 +20,7 @@ div{
 #grupo1 :hover{
     transition: all 0.4s all 0.4s;
     transform: skew(0.6);
-    width: 200px;
-    height: 200px;
+    
     border: solid 2px;
     position: relative;
     border-radius: 100%;
@@ -32,7 +36,7 @@ div{
 }
 [name="1"]:hover{
     background-image: url("./img/homero1.jpg");
-    background-size: cover ;/* #FCF3CF;*/
+    background-size: cover;/* #FCF3CF;*/
 }
 
 [name="2"]{
@@ -314,4 +318,26 @@ div{
     background-size: cover;
     /*
     background-color:#E74C3C;*/
+}
+
+@media(min-width:760px){
+    body{
+        width: 100vw;
+        height:100vh;   
+    }
+    div{
+        height: 100px;
+        width: 100px;   
+    }
+}
+
+@media(min-width: 1000px){
+    body{
+        width: 100vw;
+        height:100vh;   
+    }
+    div{
+        height: 200px;
+        width: 200px   
+    }
 }
