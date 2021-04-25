@@ -1,0 +1,240 @@
+h1{
+    position: relative;
+    top: 10px;
+    right: 425px;
+    text-align: center;
+    color: lightseagreen;
+    font-family:'Bangers', cursive;
+    
+    
+    
+}
+
+div{
+    border: dashed #34495E 3px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+
+#grupo1 :hover{
+    transition: all 0.2s all 0.2s;
+    transform: scale(0.6);
+    border-style: inherit;
+}
+
+[name="1"]{
+    background-color:  #A3E4D7;
+}
+[name="1"]:hover{
+    background-image: url("./img/homero1.jpg");
+    background-size: cover ;/* #FCF3CF;*/
+}
+
+[name="2"]{
+    background-color:#A3E4D7;
+}
+[name="2"]:hover{
+    background-image: url("./img/homero2.jpg");
+    background-size: cover ;
+    /*background-color: #F9E79F;   */
+}
+
+[name="3"]{
+    background-color: #76D7C4 ;
+}
+[name="3"]:hover{
+    background-image: url("./img/homero3.png");
+    background-size: cover;
+    /*
+    background-color:#F7DC6F;*/
+}
+
+[name="4"]{
+    background-color:#48C9B0;
+}
+[name="4"]:hover{
+    background-image: url("./img/homero4.png");
+    background-size: cover;
+    /*
+    background-color:#F4D03F ;*/
+}
+
+[name="5"]{
+    background-color: #1ABC9C ;
+}
+[name="5"]:hover{
+    background-image: url("./img/homero5.jpg");
+    background-size: cover;
+    /*
+    background-color:#F1C40F;*/
+}
+
+
+#grupo2 :hover{
+    transition: all 0.2s linear 0.2s;
+    transform: rotate(180deg);
+    border-style: groove;
+    border-color: darkslategray;
+}
+
+[name="6"]{
+    background-color:#EBDEF0;
+}
+[name="6"]:hover{
+    background-image: url("./img/marge1.png");
+    background-size: cover;
+    /*background-color:#D4E6F1;*/
+}
+
+[name="7"]{
+    background-color: #D7BDE2 ;
+}
+[name="7"]:hover{
+    background-image: url("./img/marge2.jpg");
+    background-size: cover;
+    /*background-color: #A9CCE3;*/
+}
+
+[name="8"]{
+    background-color:#C39BD3 ;
+}
+[name="8"]:hover{
+    background-image: url("./img/marge3.png");
+    background-size: cover;
+    /*
+    background-color:#7FB3D5  ;*/
+}
+
+[name="9"]{
+    background-color: #AF7AC5;
+}
+[name="9"]:hover{
+    background-image: url("./img/marge4.png");
+    background-size: cover;
+    /*
+    background-color: #5499C7;*/
+}
+
+[name="10"]{
+    background-color:#9B59B6 ;
+}
+
+[name="10"]:hover{
+    background-image: url("./img/marge5.png");
+    background-size: cover;
+    /*
+    background-color:#5499C7;*/
+}
+
+#grupo3 :hover{
+    outline: 2px dashed rgb(58, 3, 110);
+    outline-offset: 8px;
+    transition: all 0.2s linear 0.2s;
+    border: dotted 5px rgb(58, 3, 110);
+}
+[name="11"]{
+    background-color: #F2D7D5;
+}
+[name="11"]:hover{
+    background-image: url("./img/lisa1.jpg");
+    background-size: cover;
+    /*
+    background-color:#EAEDED;   */
+}
+
+[name="12"]{
+    background-color:#E6B0AA;
+}
+[name="12"]:hover{
+    background-image: url("./img/lisa2.png");
+    background-size: cover;
+    /*
+    background-color: #B2BABB;    */
+}
+
+[name="13"]{
+    background-color:#D98880;
+}
+[name="13"]:hover{
+    background-image: url("./img/lisa3.png");
+    background-size: cover;
+    /*
+    background-color: #BFC9CA; */
+}
+
+[name="14"]{
+    background-color:#CD6155;
+}
+[name="14"]:hover{
+    background-image: url("./img/lisa4.png");
+    background-size: cover;
+    /*
+    background-color: #7F8C8D;*/
+}
+
+[name="15"]{
+    background-color: #E74C3C;
+}
+[name="15"]:hover{
+    background-image: url("./img/lisa5.png");
+    background-size: cover;
+    /*
+    background-color: #839192;*/
+}
+
+#grupo4 :hover{
+    transition: all 0.2s linear 0.2s;
+    border-color: #D6EAF8;
+    border-width: 30px;
+    border-style: hidden hidden groove groove;
+}
+[name="16"]{
+    background-color:#D6EAF8 ;
+}
+[name="16"]:hover{
+    background-image: url("./img/bart1.png");
+    background-size: cover;
+    /*
+    background-color: #F6DDCC;*/
+}
+
+[name="17"]{
+    background-color:#AED6F1;
+}
+[name="17"]:hover{
+    background-image: url("./img/bart2.jpg");
+    background-size: cover;
+    /*
+    background-color:#F5B7B1;*/
+}
+
+[name="18"]{
+    background-color: #85C1E9;
+}
+[name="18"]:hover{
+    background-image: url("./img/bart3.png");
+    background-size: cover;
+    /*ackground-color:#F1948A;*/
+}
+
+[name="19"]{
+    background-color:#5DADE2;
+}
+[name="19"]:hover{
+    background-image: url("./img/bart4.png");
+    background-size: cover;
+    /*background-color:#EC7063;*/
+}
+
+[name="20"]{
+    background-color: #3498DB;
+}
+[name="20"]:hover{
+    background-image: url("./img/bart5.png");
+    background-size: cover;
+    /*
+    background-color:#E74C3C;*/
+}
