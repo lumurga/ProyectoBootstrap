@@ -9,10 +9,21 @@ div{
     
 }
 
-
+@keyframes homero {
+    25%{transform:scale(0.5)}
+}
 #grupo1 :hover{
-    transition: all 0.2s all 0.2s;
-    transform: scale(0.6);
+    transition: all 0.4s all 0.4s;
+    transform: skew(0.6);
+    width: 200px;
+    height: 200px;
+    border: solid 2px;
+    position: relative;
+    border-radius: 100%;
+    animation-name: homero;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
     
 }
 
@@ -227,6 +238,79 @@ div{
 }
 [name="20"]:hover{
     background-image: url("./img/bart5.png");
+    background-size: cover;
+    /*
+    background-color:#E74C3C;*/
+}
+
+
+@keyframes maggie{
+    0%{opacity: 0%;}
+    25%{transform: translateY(-20px);opacity: 100%}
+    100%{opacity: 0%;}
+}
+@keyframes maggie2{
+    0%{opacity: 0%;}
+    25%{transform: translateY(20px);opacity: 100%}
+    100%{opacity: 0%;}
+}
+
+#grupo5 :hover{
+    border: none;
+}
+
+#grupo5 :hover:nth-child(odd){
+    animation: maggie 4s infinite;
+      
+}
+
+#grupo5 :hover:nth-child(even){
+     animation: maggie2 4s infinite;   
+}
+
+[name="21"]{
+    background-color:#FFE0B2 ;
+}
+[name="21"]:hover{
+    background-image: url("./img/maggie1.jpg");
+    background-size: cover;
+    /*
+    background-color: #F6DDCC;*/
+}
+
+[name="22"]{
+    background-color:#FFCC80;
+}
+[name="22"]:hover{
+    background-image: url("./img/maggie2.jpg");
+    background-size: cover;
+    /*
+    background-color:#F5B7B1;*/
+}
+
+[name="23"]{
+    background-color: #FFB74D;
+}
+[name="23"]:hover{
+    background-image: url("./img/maggie6.png");
+    background-size: cover;
+    /*ackground-color:#F1948A;*/
+}
+
+[name="24"]{
+    background-color:#FFA726;
+}
+[name="24"]:hover{
+    background-image: url("./img/maggie4.jpg");
+    background-size: cover;
+    /*background-color:#EC7063;*/
+}
+
+[name="25"]{
+    background-color: #FF9800;
+}
+[name="25"]:hover{
+    background-image: url("./img/maggie5.png");
     background-size: cover;
     /*
     background-color:#E74C3C;*/
