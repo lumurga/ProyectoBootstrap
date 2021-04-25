@@ -1,17 +1,7 @@
-h1{
-    position: relative;
-    top: 10px;
-    right: 546px;
-    text-align: center;
-    color: lightseagreen;
-    font-family:'Bangers', cursive;
-    
-    
-    
-}
+
 
 div{
-    border: dashed #34495E 3px;
+    border: solid #34495E 3px;
     width: 200px;
     height: 200px;
     border-radius: 10px;
@@ -19,10 +9,11 @@ div{
     
 }
 
+
 #grupo1 :hover{
     transition: all 0.2s all 0.2s;
     transform: scale(0.6);
-    border-style: inherit;
+    
 }
 
 [name="1"]{
@@ -74,8 +65,9 @@ div{
 
 
 #grupo2 :hover{
-    transition: all 0.2s linear 0.2s;
-    transform: rotate(180deg);
+    transition: all 0.4s linear 0.2s;
+    transform: rotate(360deg);
+   
     border-style: groove;
     border-color: darkslategray;
 }
@@ -186,10 +178,11 @@ div{
 }
 
 #grupo4 :hover{
-    transition: all 0.2s linear 0.2s;
+    border-radius: 50%;
+    transition: border-radius 450ms;
     border-color: #D6EAF8;
-    border-width: 30px;
-    border-style: hidden hidden groove groove;
+    border-width: 10px;
+    
 }
 [name="16"]{
     background-color:#D6EAF8 ;
