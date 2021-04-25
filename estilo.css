@@ -81,7 +81,7 @@ div{
 }
 
 [name="6"]{
-    background-color:#EBDEF0;
+    background-color:#FCF3CF;
 }
 [name="6"]:hover{
     background-image: url("./img/marge1.png");
@@ -90,7 +90,7 @@ div{
 }
 
 [name="7"]{
-    background-color: #D7BDE2 ;
+    background-color: #F9E79F ;
 }
 [name="7"]:hover{
     background-image: url("./img/marge2.jpg");
@@ -99,7 +99,7 @@ div{
 }
 
 [name="8"]{
-    background-color:#C39BD3 ;
+    background-color:#F7DC6F ;
 }
 [name="8"]:hover{
     background-image: url("./img/marge3.png");
@@ -109,7 +109,7 @@ div{
 }
 
 [name="9"]{
-    background-color: #AF7AC5;
+    background-color: #F4D03F;
 }
 [name="9"]:hover{
     background-image: url("./img/marge4.png");
@@ -119,7 +119,7 @@ div{
 }
 
 [name="10"]{
-    background-color:#9B59B6 ;
+    background-color:#F1C40F ;
 }
 
 [name="10"]:hover{
